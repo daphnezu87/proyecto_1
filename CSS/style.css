@@ -1,0 +1,61 @@
+body{
+    width: 100%;
+}
+.header {
+    /*  width: 100%; A CONTENEDORES PADRE  */
+}
+.header img {
+    width: 35px;
+    height: 35px;
+}
+.header .title{
+    color: #0000;
+    font-weight: bold;
+}
+.header li {
+    padding: 0 5px 0 20px;
+}
+.header a:hover{
+    font-weight: bold;
+    background-color: #e60023;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white !important;
+}   
+.header input{
+    width: 40vw;
+    border-radius: 50px;
+    margin-left: 20px;
+    outline: none !important;
+}
+.header .columna1{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 15px 25px 25px 15px;
+}
+    
+.header .columna3{
+    padding: 15px 15px 15px 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 500vh;
+    /* background-color:orange ; */
+}
+img{
+    border-radius: 40px; /* SIRVE PARA PONER BORDES EN LAS IMAGENES */
+}
+.imagenes{
+    display: flex;
+    flex-flow: column wrap;
+}
+.imagenes .card {
+    border-style: none;
+}
